@@ -1,0 +1,20 @@
+{
+  "message": {
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "author": "Team Eclipse Founder"
+  },
+  "gallery": [
+    { "caption": "Vienna, 2024", "image": null },
+    { "caption": "Amsterdam, 2023", "image": null },
+    { "caption": "London, 2024", "image": null },
+    { "caption": "Paris, 2023", "image": null },
+    { "caption": "Berlin, 2024", "image": null },
+    { "caption": "Stockholm, 2023", "image": null },
+    { "caption": "Geneva, 2024", "image": null },
+    { "caption": "Madrid, 2023", "image": null }
+  ],
+  "galleryQuotes": [
+    "Precision is not perfection — it is intention made visible.",
+    "Every stride tells a story of trust between horse and rider."
+  ]
+}
