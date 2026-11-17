@@ -39,6 +39,7 @@ export const translations = {
     },
     footer: {
       tagline: "Завжди прагнемо досконалості.",
+      about: "Команда з виїздки, де техніка, довіра та повага до коня складаються в єдину гармонію. Готуємо вершників від дитячих стартів до Великого призу.",
       navigate: "Навігація",
       social: "Соцмережі",
       rights: "Усі права захищені.",
@@ -62,6 +63,8 @@ export const translations = {
       gallery_label: "Моменти",
       gallery_title: "Галерея",
       gallery_empty: "Фото скоро з'являться",
+      contact_soon: "Незабаром",
+      contact_title: "Контакти",
       competitions_label: "Календар",
       competitions_title: "Змагання",
       competitions_description: "Найближчі змагання з виїздки з календаря Федерації кінного спорту України. Дані оновлюються автоматично кожну годину.",
@@ -114,6 +117,7 @@ export const translations = {
     },
     footer: {
       tagline: "Always riding to perfection.",
+      about: "A dressage team where technique, trust and respect for the horse come together in harmony. We prepare riders from children's classes to Grand Prix.",
       navigate: "Navigate",
       social: "Social",
       rights: "All rights reserved.",
@@ -137,6 +141,8 @@ export const translations = {
       gallery_label: "Moments",
       gallery_title: "Gallery",
       gallery_empty: "Photos coming soon",
+      contact_soon: "Coming soon",
+      contact_title: "Contact",
       competitions_label: "Calendar",
       competitions_title: "Competitions",
       competitions_description: "Upcoming dressage events from the Ukrainian Equestrian Federation calendar. Data refreshes automatically every hour.",

@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "image": "/images/gallery/02.jpg",
+    "caption": "Липіцанери в леваді"
+  },
+  {
+    "image": "/images/gallery/03.jpg",
+    "caption": "Перед тренуванням"
+  },
+  {
+    "image": "/images/gallery/04.jpg",
+    "caption": "Вечірня прогулянка"
+  },
+  {
+    "image": "/images/gallery/05.jpg",
+    "caption": "Готовність до старту"
+  },
+  {
+    "image": "/images/gallery/06.jpg",
+    "caption": "Табун на світанку"
+  },
+  {
+    "image": "/images/gallery/07.jpg",
+    "caption": "Увага до кожного руху"
+  },
+  {
+    "image": "/images/gallery/09.jpg",
+    "caption": "Зимові тренування"
+  },
+  {
+    "image": "/images/gallery/11.jpg",
+    "caption": "Свобода гриви"
+  },
+  {
+    "image": "/images/gallery/12.jpg",
+    "caption": "Ранковий туман"
+  }
+]

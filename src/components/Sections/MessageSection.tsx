@@ -14,7 +14,7 @@ export default function MessageSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const quoteRef = useRef<HTMLDivElement>(null);
   const [quote, setQuote] = useState(
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "Виїздка — це діалог без слів. Кожен рух народжується з довіри між вершником і конем, а досконалість — із терпіння та щоденної праці."
   );
   const [author, setAuthor] = useState("");
   const triggersRef = useRef<ScrollTrigger[]>([]);

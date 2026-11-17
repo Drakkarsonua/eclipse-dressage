@@ -162,33 +162,30 @@ export default function Hero3D() {
           ref={sceneRef}
           className="absolute inset-0 will-change-transform origin-center"
         >
-          {/* Logo placeholder — center of screen */}
+          {/* Logo — center of screen */}
           <div className="absolute inset-0 z-[1] flex items-center justify-center">
             <div
               ref={logoRef}
-              className="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] rounded-full flex flex-col items-center justify-center gap-4 will-change-transform"
-              style={{
-                border: "2px dashed rgba(255,255,255,0.3)",
-              }}
+              className="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] flex items-center justify-center will-change-transform"
             >
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="text-white/30"
-              >
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
+              <svg viewBox="0 0 300 300" className="w-full h-full" aria-label="Eclipse Dressage">
+                <defs>
+                  <radialGradient id="eclipse-corona" cx="50%" cy="50%" r="50%">
+                    <stop offset="62%" stopColor="#ffffff" stopOpacity="0" />
+                    <stop offset="70%" stopColor="#e8ecf5" stopOpacity="0.35" />
+                    <stop offset="100%" stopColor="#ffffff" stopOpacity="0" />
+                  </radialGradient>
+                  <linearGradient id="eclipse-ring" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stopColor="#ffffff" stopOpacity="0.95" />
+                    <stop offset="50%" stopColor="#9aa3b5" stopOpacity="0.6" />
+                    <stop offset="100%" stopColor="#ffffff" stopOpacity="0.9" />
+                  </linearGradient>
+                </defs>
+                <circle cx="150" cy="150" r="148" fill="url(#eclipse-corona)" />
+                <circle cx="150" cy="150" r="104" fill="none" stroke="url(#eclipse-ring)" strokeWidth="1.5" />
+                <circle cx="150" cy="150" r="118" fill="none" stroke="#ffffff" strokeOpacity="0.12" strokeWidth="1" strokeDasharray="2 6" />
+                <circle cx="164" cy="142" r="98" fill="#060B14" />
               </svg>
-              <span className="text-white/30 text-sm tracking-[0.4em] uppercase">
-                Logo
-              </span>
             </div>
           </div>
 

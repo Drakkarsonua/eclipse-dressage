@@ -2,19 +2,19 @@
   {
     "name": "Robin Good",
     "year": "2018",
-    "image": null,
-    "actionImage": null
+    "image": "/images/horses/robin.jpg",
+    "actionImage": "/images/gallery/04.jpg"
   },
   {
     "name": "Ashes of Al'ar",
     "year": "2019",
-    "image": null,
-    "actionImage": null
+    "image": "/images/horses/ashes.jpg",
+    "actionImage": "/images/gallery/05.jpg"
   },
   {
     "name": "Monrual de Gold",
     "year": "2020",
-    "image": null,
-    "actionImage": null
+    "image": "/images/horses/monrual.jpg",
+    "actionImage": "/images/gallery/12.jpg"
   }
 ]

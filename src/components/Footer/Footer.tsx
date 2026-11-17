@@ -102,8 +102,7 @@ export default function Footer() {
               ECLIPSE
             </h3>
             <p className="text-text-secondary text-sm leading-relaxed max-w-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque habitant morbi tristique senectus et netus.
+              {t.footer.about}
             </p>
           </div>
 

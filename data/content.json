@@ -1,17 +1,41 @@
 {
   "message": {
-    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "author": "Team Eclipse Founder"
+    "quote": "Виїздка — це діалог без слів. Кожен рух народжується з довіри між вершником і конем, а досконалість — із терпіння та щоденної праці.",
+    "author": ""
   },
   "gallery": [
-    { "caption": "Vienna, 2024", "image": null },
-    { "caption": "Amsterdam, 2023", "image": null },
-    { "caption": "London, 2024", "image": null },
-    { "caption": "Paris, 2023", "image": null },
-    { "caption": "Berlin, 2024", "image": null },
-    { "caption": "Stockholm, 2023", "image": null },
-    { "caption": "Geneva, 2024", "image": null },
-    { "caption": "Madrid, 2023", "image": null }
+    {
+      "image": "/images/gallery/02.jpg",
+      "caption": "Липіцанери в леваді"
+    },
+    {
+      "image": "/images/gallery/03.jpg",
+      "caption": "Перед тренуванням"
+    },
+    {
+      "image": "/images/gallery/04.jpg",
+      "caption": "Вечірня прогулянка"
+    },
+    {
+      "image": "/images/gallery/05.jpg",
+      "caption": "Готовність до старту"
+    },
+    {
+      "image": "/images/gallery/06.jpg",
+      "caption": "Табун на світанку"
+    },
+    {
+      "image": "/images/gallery/07.jpg",
+      "caption": "Увага до кожного руху"
+    },
+    {
+      "image": "/images/gallery/09.jpg",
+      "caption": "Зимові тренування"
+    },
+    {
+      "image": "/images/gallery/11.jpg",
+      "caption": "Свобода гриви"
+    }
   ],
   "galleryQuotes": [
     "Precision is not perfection — it is intention made visible.",
