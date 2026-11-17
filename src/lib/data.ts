@@ -18,7 +18,8 @@ export function checkAuth(request: Request): boolean {
   const authHeader = request.headers.get("authorization");
   if (!authHeader) return false;
   const token = authHeader.replace("Bearer ", "");
-  return token === process.env.ADMIN_PASSWORD;
+  const expected = process.env.ADMIN_PASSWORD;
+  return !!expected && token === expected;
 }
 
 export function unauthorized() {
